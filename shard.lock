@@ -1,0 +1,18 @@
+version: 1.0
+shards:
+  baked_file_system:
+    github: schovi/baked_file_system
+    version: 0.9.4
+
+  crinja:
+    github: straight-shoota/crinja
+    commit: b6203220329c6e47ee126fad2259229166ee5b8c
+
+  markd:
+    github: icyleaf/markd
+    version: 0.1.0
+
+  wkhtmltopdf-crystal:
+    github: blocknotes/wkhtmltopdf-crystal
+    version: 0.1.8
+

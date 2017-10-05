@@ -1,0 +1,24 @@
+name: md2pdf
+version: 0.1.0
+crystal: 0.23.1
+
+authors:
+  - Johannes Müller <straightshoota@gmail.com>
+license: MIT
+
+description: |
+  Convert markdown files to pdf with flexible template and stylesheet.
+
+targets:
+  md2pdf:
+    main: src/cli.cr
+
+dependencies:
+  markd:
+    github: icyleaf/markd
+  wkhtmltopdf-crystal:
+    github: blocknotes/wkhtmltopdf-crystal
+  crinja:
+    github: straight-shoota/crinja
+  baked_file_system:
+    github: schovi/baked_file_system
