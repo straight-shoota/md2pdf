@@ -6,6 +6,8 @@ The app itself does not to much, it just ties together **wkhtmltopdf** (using [b
 
 [**Examples**](https://straight-shoota.github.io/md2pdf/examples)
 
+![](https://straight-shoota.github.io/md2pdf/md-html-pdf.png)
+
 ## Installation
 
 There is currently no binary distribution, you'll need to build it yourself.
