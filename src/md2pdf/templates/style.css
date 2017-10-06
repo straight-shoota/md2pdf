@@ -7,7 +7,6 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: .7rem;
   margin-bottom: 0;
   line-height: 1.2;
 }
@@ -30,8 +29,13 @@ h2 {
 }
 
 h3 {
+  margin-top: 1.4rem;
   font-size: 1.1em;
   color: #555;
+}
+
+h4, h5, h6 {
+  margin-top: .7rem;
 }
 
 p {
@@ -49,6 +53,34 @@ ul {
   margin-bottom: .7em;
 }
 
+img {
+  border: none;
+  max-width: 100%;
+}
+
+pre, code {
+  background: #FFFFEE;
+  border: 1px solid #EEEEEE;
+  color: #444;
+  font-family: "Consolas", "Source Code Pro", monospace;
+  word-break: break-word;
+}
+
+code {
+  padding: 0 .15em;
+}
+
+pre {
+  padding: .2em .5em;
+  margin: 1.4em 0;
+}
+
+pre code {
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
 @media screen {
   html {
     background-color: #F8F8F8;
@@ -57,9 +89,9 @@ ul {
   }
   body {
     max-width: 18cm;
-    margin: auto;
+    margin: 2em auto;
     background-color: #FFF;
-    border: 1px solid #dddddd;
-    padding: 23mm 18mm;
+    border: 1px solid #CCCCCC;
+    padding: 18mm 18mm;
   }
 }
