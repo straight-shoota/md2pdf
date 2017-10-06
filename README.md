@@ -4,6 +4,8 @@ Convert markdown files to PDF with flexible template and stylesheet using [wkhtm
 
 The app itself does not to much, it just ties together **wkhtmltopdf** (using [blocknotes/wkhtmltopdf-crystal](https://github.com/blocknotes/wkhtmltopdf-crystal)) with [**markd** ](https://github.com/icyleaf/markd) (Crystal CommonMark parser) and [**Crinja**](https://github.com/straight-shoota/crinja) (Crystal template engine).
 
+[**Examples**](https://straight-shoota.github.io/md2pdf/examples)
+
 ## Installation
 
 There is currently no binary distribution, you'll need to build it yourself.
